@@ -1,10 +1,17 @@
 spring:
     datasource:
-        url: jdbc:mariadb://textmining-server-db.cfjjncxgjjam.ap-northeast-1.rds.amazonaws.com:3306/aws
+        url: jdbc:mariadb://textmining-server-db.cfjjncxgjjam.ap-northeast-1.rds.amazonaws.com:3306/
         username: root
         password: Chlgurtns98!
 
+
+
+
     jpa:
+
+        database-platform: org.hibernate.dialect.MariaDB106Dialect
+
+
         hibernate:
             ddl-auto: create
         properties:
