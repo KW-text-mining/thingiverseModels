@@ -1,0 +1,369 @@
+{
+  "id": 5828243,
+  "name": "MASTER Sword (No glue, assembles smooth! Because banana bread wasn't enough for you people)",
+  "thumbnail": "https://cdn.thingiverse.com/assets/bb/35/a5/dc/bc/large_display_4a786808-39f4-4162-8e87-af40e2618811.jpg",
+  "url": "https://api.thingiverse.com/things/5828243",
+  "public_url": "https://www.thingiverse.com/thing:5828243",
+  "creator": {
+    "id": 2970094,
+    "name": "giedzinski",
+    "first_name": "S.C.",
+    "last_name": "Giedzinski",
+    "url": "https://api.thingiverse.com/users/giedzinski",
+    "public_url": "https://www.thingiverse.com/giedzinski",
+    "thumbnail": "https://cdn.thingiverse.com/assets/0f/b7/a8/1c/22/0f57d2b6-993d-44ac-9788-3d3d06c5ee08.jpg",
+    "count_of_followers": 294,
+    "count_of_following": 0,
+    "count_of_designs": 5,
+    "collection_count": 1,
+    "make_count": 0,
+    "accepts_tips": true,
+    "is_following": false,
+    "location": "United States",
+    "cover": "https://cdn.thingiverse.com/assets/e1/75/f9/4e/f7/0c34934a-7423-45ee-ab51-c9aad0023a46.jpeg",
+    "is_admin": 0
+  },
+  "added": "2023-02-03T02:24:18+00:00",
+  "modified": "2023-02-03T02:24:18+00:00",
+  "is_published": 1,
+  "is_wip": 0,
+  "is_featured": null,
+  "is_nsfw": false,
+  "like_count": 3028,
+  "is_liked": false,
+  "collect_count": 4820,
+  "is_collected": false,
+  "comment_count": 118,
+  "is_watched": false,
+  "default_image": {
+    "id": 18720055,
+    "url": "https://cdn.thingiverse.com/assets/92/bc/6e/aa/70/4a786808-39f4-4162-8e87-af40e2618811.jpg",
+    "name": "4a786808-39f4-4162-8e87-af40e2618811.jpg",
+    "sizes": [
+      {
+        "type": "thumb",
+        "size": "large",
+        "url": "https://cdn.thingiverse.com/assets/5b/0a/5a/b9/02/large_thumb_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "thumb",
+        "size": "medium",
+        "url": "https://cdn.thingiverse.com/assets/f0/f9/18/2c/ca/medium_thumb_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "thumb",
+        "size": "small",
+        "url": "https://cdn.thingiverse.com/assets/14/28/bf/ad/c8/small_thumb_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "thumb",
+        "size": "tiny",
+        "url": "https://cdn.thingiverse.com/assets/8a/a4/b2/f5/43/tiny_thumb_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "featured",
+        "url": "https://cdn.thingiverse.com/assets/7b/88/82/22/35/featured_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "card",
+        "url": "https://cdn.thingiverse.com/assets/11/05/4d/2c/21/card_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "large",
+        "url": "https://cdn.thingiverse.com/assets/30/c7/ca/70/5a/large_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "medium",
+        "url": "https://cdn.thingiverse.com/assets/55/fb/ce/47/cc/medium_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "small",
+        "url": "https://cdn.thingiverse.com/assets/0b/c5/0c/8d/c3/small_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "birdwing",
+        "url": "https://cdn.thingiverse.com/assets/a8/a0/c6/f4/83/birdwing_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "tiny",
+        "url": "https://cdn.thingiverse.com/assets/bc/bc/29/41/dd/tiny_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "preview",
+        "size": "tinycard",
+        "url": "https://cdn.thingiverse.com/assets/4d/1e/bd/98/32/tinycard_preview_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "display",
+        "size": "large",
+        "url": "https://cdn.thingiverse.com/assets/bb/35/a5/dc/bc/large_display_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "display",
+        "size": "medium",
+        "url": "https://cdn.thingiverse.com/assets/df/a8/ce/02/39/medium_display_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      },
+      {
+        "type": "display",
+        "size": "small",
+        "url": "https://cdn.thingiverse.com/assets/09/ce/04/27/bb/small_display_4a786808-39f4-4162-8e87-af40e2618811.jpg"
+      }
+    ],
+    "added": "2023-02-03T02:22:10+00:00"
+  },
+  "description": "Are you a gamer who's been begging for this in the comments of my last sword design? Well, I'm not a gamer, but it's your lucky day. Here's the Master Sword, from a guy who knows nothing about video games.\r\n\r\nIn case you haven't read my story about banana bread in the description of my last sword, I suggest starting there. TL;DR: I gave a clown a sword, tried to barter another sword for a loaf of bread, got rejected on Tinder, and posted it here instead.\r\n\r\nThen, a couple thousand people thought it was pretty cool. So, thank you.\r\n\r\nHowever, it wasn't enough for everyone. For some, there is only one sword that matters. My painstaking original designs cannot satisfy the fervor of these devoted, true believers. My banana sword—with its tiny, fragile pins that barely fit in thoose bizarrely angled holes—could never stand up to THE sword. The ONLY sword. The Master Sword… whatever that is.\r\n\r\nCreativity is dead. Long live recycled ideas based off grainy reference images I found on the Zelda Wiki. \r\n\r\nThe Master Sword is longer, bigger, heavier, and more intricate. The full length matches my 39\" banana sword, or can be increased to 48\" by adding two more components in the blade stackup. I've allowed all different-colored components of the sword to print separately, so you can bring your make as close to—or far from—in-game colors as you wish, without the need for paint. Oh, and the news you've all been waiting for: No more pins inside the blade. I've got something much better this time. \r\n\r\nPlease enjoy this sword. Good luck figuring out Zelda's legend, or whatever it is you do. I have no idea what the game is about. \r\n\r\nAlso, I started a Patreon for those who feel VERY strongly about my work. See link on my profile.",
+  "instructions": "",
+  "description_html": "<div><p>Are you a gamer who's been begging for this in the comments of my last sword design? Well, I'm not a gamer, but it's your lucky day. Here's the Master Sword, from a guy who knows nothing about video games.</p>\n<p>In case you haven't read my story about banana bread in the description of my last sword, I suggest starting there. TL;DR: I gave a clown a sword, tried to barter another sword for a loaf of bread, got rejected on Tinder, and posted it here instead.</p>\n<p>Then, a couple thousand people thought it was pretty cool. So, thank you.</p>\n<p>However, it wasn't enough for everyone. For some, there is only one sword that matters. My painstaking original designs cannot satisfy the fervor of these devoted, true believers. My banana sword&mdash;with its tiny, fragile pins that barely fit in thoose bizarrely angled holes&mdash;could never stand up to THE sword. The ONLY sword. The Master Sword&hellip; whatever that is.</p>\n<p>Creativity is dead. Long live recycled ideas based off grainy reference images I found on the Zelda Wiki. </p>\n<p>The Master Sword is longer, bigger, heavier, and more intricate. The full length matches my 39\" banana sword, or can be increased to 48\" by adding two more components in the blade stackup. I've allowed all different-colored components of the sword to print separately, so you can bring your make as close to&mdash;or far from&mdash;in-game colors as you wish, without the need for paint. Oh, and the news you've all been waiting for: No more pins inside the blade. I've got something much better this time. </p>\n<p>Please enjoy this sword. Good luck figuring out Zelda's legend, or whatever it is you do. I have no idea what the game is about. </p>\n<p>Also, I started a Patreon for those who feel VERY strongly about my work. See link on my profile.</p></div>\n",
+  "instructions_html": "<div></div>\n",
+  "details": "<div><h1 class=\"thing-component-header summary summary\">Summary</h1>\n<div><p>Are you a gamer who's been begging for this in the comments of my last sword design? Well, I'm not a gamer, but it's your lucky day. Here's the Master Sword, from a guy who knows nothing about video games.</p>\n<p>In case you haven't read my story about banana bread in the description of my last sword, I suggest starting there. TL;DR: I gave a clown a sword, tried to barter another sword for a loaf of bread, got rejected on Tinder, and posted it here instead.</p>\n<p>Then, a couple thousand people thought it was pretty cool. So, thank you.</p>\n<p>However, it wasn't enough for everyone. For some, there is only one sword that matters. My painstaking original designs cannot satisfy the fervor of these devoted, true believers. My banana sword&mdash;with its tiny, fragile pins that barely fit in thoose bizarrely angled holes&mdash;could never stand up to THE sword. The ONLY sword. The Master Sword&hellip; whatever that is.</p>\n<p>Creativity is dead. Long live recycled ideas based off grainy reference images I found on the Zelda Wiki. </p>\n<p>The Master Sword is longer, bigger, heavier, and more intricate. The full length matches my 39\" banana sword, or can be increased to 48\" by adding two more components in the blade stackup. I've allowed all different-colored components of the sword to print separately, so you can bring your make as close to&mdash;or far from&mdash;in-game colors as you wish, without the need for paint. Oh, and the news you've all been waiting for: No more pins inside the blade. I've got something much better this time. </p>\n<p>Please enjoy this sword. Good luck figuring out Zelda's legend, or whatever it is you do. I have no idea what the game is about. </p>\n<p>Also, I started a Patreon for those who feel VERY strongly about my work. See link on my profile.</p></div>\n<h1 class=\"thing-component-header settings print-settings\">Print Settings</h1>\n<p class=\"detail-setting printer brand\"><strong>Printer Brand: </strong>\n                         </p><div><p>Creality</p></div>\n                                    \n<pre><code>                                            &lt;p class=\"detail-setting printer\"&gt;&lt;strong&gt;Printer: &lt;/strong&gt;\n                     &lt;div&gt;&lt;p&gt;Ender 3&lt;/p&gt;&lt;/div&gt;</code></pre>\n<p></p>                                    \n<p class=\"detail-setting rafts\"><strong>Rafts: </strong>\n                         </p><div><p>No</p></div>\n                                    \n<pre><code>                                            &lt;p class=\"detail-setting supports\"&gt;&lt;strong&gt;Supports: &lt;/strong&gt;\n                     &lt;div&gt;&lt;p&gt;No&lt;/p&gt;&lt;/div&gt;</code></pre>\n<p></p>                                    \n<p class=\"detail-setting resolution\"><strong>Resolution: </strong>\n                         </p><div><p>0.16</p></div>\n                                    \n<pre><code>                                            &lt;p class=\"detail-setting infill\"&gt;&lt;strong&gt;Infill: &lt;/strong&gt;\n                     &lt;div&gt;&lt;p&gt;10&lt;/p&gt;&lt;/div&gt;</code></pre>\n<p></p><br><strong>Filament:</strong><br><a rel=\"ugc nofollow\" href=\"http://www.amazon.com/s?url=search-alias&amp;field-keywords=Hatchbox+PLA\" target=\"_blank\"><br>\nHatchbox PLA                    </a>\n<pre><code>                Blue, Green, Copper, Silver\n\n                    &lt;br&gt;                        &lt;p class=\"detail-setting notes\"&gt;&lt;strong&gt;Notes: &lt;/strong&gt;\n                    &lt;/p&gt;&lt;div&gt;&lt;p&gt;BEFORE PRINTING: \"B1\" and \"B2\" were updated 2/8/2023 because I had uploaded the wrong versions, so please redownload those if you had already downloaded them. For makers with high-precision printers, \"B#-tighter-dovetail\" files have been added as of 3/6/2023 and have a dovetail tolerance of 0.005\" as opposed to the original 0.015\".&lt;/p&gt;</code></pre>\n<p>Print 1x:</p>\n<ul><li>Silver \"B1\" through \"B4-6\", each standing upright on an angled end.</li>\n<li>Silver \"B7\" through \"B9\", each standing upright on an angled end (note that \"B7\" looks a lot like \"B4-6\" but is not identical due to a slight curve where it meets \"B9\").</li>\n<li>Blue \"H1\" and \"H2\", each with its flat cut-open side on the bed (seriously, no supports!).</li>\n<li>\"V\" with a long flat side on the bed (internal component; color doesn't matter).</li>\n<li>Blue \"D\" standing upright on its wider end (setting -0.2mm Horizontal Expansion recommended for ease of assembly).</li>\n<li>Green \"X\" standing upright (recommend a brim for this part only).</li>\n<li>Blue \"E\" with the pointy part upward.</li>\n</ul><p>Print 2x:</p>\n<ul><li>Copper \"T\" with the larger arrow-shaped side on the bed.</li>\n<li>Copper \"G\" with the big flat side on the bed.</li>\n</ul><p>Print 5x:</p>\n<ul><li>\"P\" laying flat on the bed (internal component; color doesn't matter).</li>\n</ul><p>^ This will result in the 39\" sword. To add nine inches to the blade (as shown in my photos) do the following.</p>\n<p>Print 2x:</p>\n<ul><li>Silver \"B4-6\" each standing upright on an angled end (note that you must have already printed one of this component, so you will end up with three of them).</li>\n</ul><p>Print 2x:</p>\n<ul><li>Any color \"P\" laying flat on the bed (bringing total quantity of these to 7).</li>\n</ul><p>Technically, you can add nine inches to the blade over and over by adding more pairs of \"B4-6\" and \"P\". However, the blade may break under its own weight at some point. Imaginary bonus points to whoever posts the longest make of this sword.</p>\n<h1 class=\"thing-component-header tips post-printing\">Post-Printing</h1>\n<p class=\"detail-title\"><strong>Assembly Directions</strong></p>\n                <div><p>BEFORE ASSEMBLY: \"B1\" and \"B2\" were updated 2/8/2023 because I had uploaded the wrong versions, so please redownload and reprint those if you had already downloaded them. For makers with high-precision printers, \"B#-tighter-dovetail\" files have been added as of 3/6/2023 and have a dovetail tolerance of 0.005\" as opposed to the original 0.015\".</p>\n<p>1) Stack and join \"B1\", \"B3\", \"B7\", and \"B9\" in order using \"P\" components, which press into their slots on the back of \"B#\" components. If making the longer blade, add one \"B4-6\" between \"B3\" and \"B7\", and join it with another \"P\". This consitutes the Odd side of the blade.<br>\n2) Stack and join \"B2\", \"B4-6\", and \"B8\" in order using \"P\" components as in step 1. If making the longer blade, add one \"B4-6\" next to the one already in the stack, and join it with another \"P\". This constitutes the Even side of the blade.<br>\n3) Slide both Even and Odd sides of the blade together. Keep them together with the \"P\" components. The full blade should now be rigid, aside from the sides sliding along one another.<br>\n4) Slide both \"T\" components into the slots at the bottom of the blade. The wider arrow-shaped side of each should face the bottom of the blade.<br>\n5) Hold \"H1\" and \"H2\" onto the bottom of the blade so that they fit together. Slide \"V\" into the hole at the bottom of \"H#\", and insert it fully. Only a fraction of an inch of component \"V\" should remain exposed.<br>\n6) Attach \"G\" components. This step is hard to put into words. If you can operate a 3D-printer, you can figure this one out. Call it a fun little challenge.<br>\n7) Slide \"X\" onto \"D\" and screw \"E\" onto \"D\".<br>\n8) Screw assembly XDE onto \"H#\". Be gentle and don't rush. Hold the wide end of \"D\" (not \"E\") to avoid breakage. If needed, disassemble and screw \"D\" in and out of \"H#\" a few times to smooth-out the threads.<br>\n9) Your sword is complete. Feel free to show your thanks via the \"Tip Designer\" button, or become a Patron and tell me what to make next.</p></div></div>\n",
+  "details_parts": [
+    {
+      "type": "summary",
+      "name": "Summary",
+      "required": "required",
+      "data": [
+        {
+          "content": "<div><p>Are you a gamer who's been begging for this in the comments of my last sword design? Well, I'm not a gamer, but it's your lucky day. Here's the Master Sword, from a guy who knows nothing about video games.</p>\n<p>In case you haven't read my story about banana bread in the description of my last sword, I suggest starting there. TL;DR: I gave a clown a sword, tried to barter another sword for a loaf of bread, got rejected on Tinder, and posted it here instead.</p>\n<p>Then, a couple thousand people thought it was pretty cool. So, thank you.</p>\n<p>However, it wasn't enough for everyone. For some, there is only one sword that matters. My painstaking original designs cannot satisfy the fervor of these devoted, true believers. My banana sword&mdash;with its tiny, fragile pins that barely fit in thoose bizarrely angled holes&mdash;could never stand up to THE sword. The ONLY sword. The Master Sword&hellip; whatever that is.</p>\n<p>Creativity is dead. Long live recycled ideas based off grainy reference images I found on the Zelda Wiki. </p>\n<p>The Master Sword is longer, bigger, heavier, and more intricate. The full length matches my 39\" banana sword, or can be increased to 48\" by adding two more components in the blade stackup. I've allowed all different-colored components of the sword to print separately, so you can bring your make as close to&mdash;or far from&mdash;in-game colors as you wish, without the need for paint. Oh, and the news you've all been waiting for: No more pins inside the blade. I've got something much better this time. </p>\n<p>Please enjoy this sword. Good luck figuring out Zelda's legend, or whatever it is you do. I have no idea what the game is about. </p>\n<p>Also, I started a Patreon for those who feel VERY strongly about my work. See link on my profile.</p></div>\n"
+        }
+      ]
+    },
+    {
+      "type": "settings",
+      "name": "Print Settings",
+      "data": [
+        {
+          "printer brand": "<div><p>Creality</p></div>\n",
+          "printer": "<div><p>Ender 3</p></div>\n",
+          "rafts": "No",
+          "supports": "No",
+          "resolution": "0.16",
+          "infill": "10",
+          "filament_brand": "<div><p>Hatchbox</p></div>\n",
+          "filament_color": "<div><p>Blue, Green, Copper, Silver</p></div>\n",
+          "filament_material": "<div><p>PLA</p></div>\n",
+          "notes": "<div><p>BEFORE PRINTING: \"B1\" and \"B2\" were updated 2/8/2023 because I had uploaded the wrong versions, so please redownload those if you had already downloaded them. For makers with high-precision printers, \"B#-tighter-dovetail\" files have been added as of 3/6/2023 and have a dovetail tolerance of 0.005\" as opposed to the original 0.015\".</p>\n<p>Print 1x:</p>\n<ul><li>Silver \"B1\" through \"B4-6\", each standing upright on an angled end.</li>\n<li>Silver \"B7\" through \"B9\", each standing upright on an angled end (note that \"B7\" looks a lot like \"B4-6\" but is not identical due to a slight curve where it meets \"B9\").</li>\n<li>Blue \"H1\" and \"H2\", each with its flat cut-open side on the bed (seriously, no supports!).</li>\n<li>\"V\" with a long flat side on the bed (internal component; color doesn't matter).</li>\n<li>Blue \"D\" standing upright on its wider end (setting -0.2mm Horizontal Expansion recommended for ease of assembly).</li>\n<li>Green \"X\" standing upright (recommend a brim for this part only).</li>\n<li>Blue \"E\" with the pointy part upward.</li>\n</ul><p>Print 2x:</p>\n<ul><li>Copper \"T\" with the larger arrow-shaped side on the bed.</li>\n<li>Copper \"G\" with the big flat side on the bed.</li>\n</ul><p>Print 5x:</p>\n<ul><li>\"P\" laying flat on the bed (internal component; color doesn't matter).</li>\n</ul><p>^ This will result in the 39\" sword. To add nine inches to the blade (as shown in my photos) do the following.</p>\n<p>Print 2x:</p>\n<ul><li>Silver \"B4-6\" each standing upright on an angled end (note that you must have already printed one of this component, so you will end up with three of them).</li>\n</ul><p>Print 2x:</p>\n<ul><li>Any color \"P\" laying flat on the bed (bringing total quantity of these to 7).</li>\n</ul><p>Technically, you can add nine inches to the blade over and over by adding more pairs of \"B4-6\" and \"P\". However, the blade may break under its own weight at some point. Imaginary bonus points to whoever posts the longest make of this sword.</p></div>\n"
+        }
+      ]
+    },
+    {
+      "type": "tips",
+      "name": "Post-Printing",
+      "data": [
+        {
+          "title": "Assembly Directions",
+          "content": "<div><p>BEFORE ASSEMBLY: \"B1\" and \"B2\" were updated 2/8/2023 because I had uploaded the wrong versions, so please redownload and reprint those if you had already downloaded them. For makers with high-precision printers, \"B#-tighter-dovetail\" files have been added as of 3/6/2023 and have a dovetail tolerance of 0.005\" as opposed to the original 0.015\".</p>\n<p>1) Stack and join \"B1\", \"B3\", \"B7\", and \"B9\" in order using \"P\" components, which press into their slots on the back of \"B#\" components. If making the longer blade, add one \"B4-6\" between \"B3\" and \"B7\", and join it with another \"P\". This consitutes the Odd side of the blade.<br>\n2) Stack and join \"B2\", \"B4-6\", and \"B8\" in order using \"P\" components as in step 1. If making the longer blade, add one \"B4-6\" next to the one already in the stack, and join it with another \"P\". This constitutes the Even side of the blade.<br>\n3) Slide both Even and Odd sides of the blade together. Keep them together with the \"P\" components. The full blade should now be rigid, aside from the sides sliding along one another.<br>\n4) Slide both \"T\" components into the slots at the bottom of the blade. The wider arrow-shaped side of each should face the bottom of the blade.<br>\n5) Hold \"H1\" and \"H2\" onto the bottom of the blade so that they fit together. Slide \"V\" into the hole at the bottom of \"H#\", and insert it fully. Only a fraction of an inch of component \"V\" should remain exposed.<br>\n6) Attach \"G\" components. This step is hard to put into words. If you can operate a 3D-printer, you can figure this one out. Call it a fun little challenge.<br>\n7) Slide \"X\" onto \"D\" and screw \"E\" onto \"D\".<br>\n8) Screw assembly XDE onto \"H#\". Be gentle and don't rush. Hold the wide end of \"D\" (not \"E\") to avoid breakage. If needed, disassemble and screw \"D\" in and out of \"H#\" a few times to smooth-out the threads.<br>\n9) Your sword is complete. Feel free to show your thanks via the \"Tip Designer\" button, or become a Patron and tell me what to make next.</p></div>\n"
+        }
+      ]
+    },
+    {
+      "type": "design",
+      "name": "How I Designed This"
+    },
+    {
+      "type": "custom",
+      "name": "Custom Section"
+    }
+  ],
+  "edu_details": "",
+  "edu_details_parts": [
+    {
+      "type": "grades",
+      "name": "Grade",
+      "required": "recommended",
+      "save_as_component": false,
+      "template": "taglist_select",
+      "fieldname": "grades",
+      "default": "Choose a range, help teachers see if this is a fit for their class",
+      "opts": {
+        "15": "Kindergarten",
+        "16": "1st Grade",
+        "17": "2nd Grade",
+        "18": "3rd Grade",
+        "19": "4th Grade",
+        "20": "5th Grade",
+        "21": "6th Grade",
+        "22": "7th Grade",
+        "23": "8th Grade",
+        "24": "9th Grade",
+        "25": "10th Grade",
+        "26": "11th Grade",
+        "27": "12th Grade",
+        "28": "Higher Education"
+      }
+    },
+    {
+      "type": "subjects",
+      "name": "Subject",
+      "required": "recommended",
+      "save_as_component": false,
+      "template": "taglist_select",
+      "fieldname": "subjects",
+      "default": "Choose a Subject, Make your project more findable",
+      "opts": {
+        "11": "Science",
+        "12": "Math",
+        "13": "Engineering",
+        "14": "History",
+        "15": "Geography",
+        "16": "Art",
+        "17": "Languages",
+        "18": "Music",
+        "19": "Technology",
+        "20": "Special Ed"
+      }
+    },
+    {
+      "type": "standards",
+      "name": "Standards",
+      "required": "recommended",
+      "save_as_component": false,
+      "template": "taglist_select",
+      "fieldname": "standards",
+      "default": "Choose a Requirement this lesson meets",
+      "opts": {
+        "3": "NGSS",
+        "4": "CCSS"
+      }
+    },
+    {
+      "type": "overview",
+      "name": "Overview and Background",
+      "required": "required"
+    },
+    {
+      "type": "plan",
+      "name": "Lesson Plan and Activity",
+      "required": "required"
+    },
+    {
+      "type": "materials",
+      "name": "Materials Needed",
+      "required": "recommended"
+    },
+    {
+      "type": "skills",
+      "name": "Skills Learned",
+      "label": "Enter each skill and press enter to add it as a tagged skill",
+      "required": false,
+      "template": "taglist",
+      "fieldname": "skills",
+      "default": "Choose Skills",
+      "opts": []
+    },
+    {
+      "type": "duration",
+      "name": "Duration of Lesson",
+      "template": "textfield"
+    },
+    {
+      "type": "prep",
+      "name": "Preparation"
+    },
+    {
+      "type": "assets",
+      "name": "Handouts and Assets",
+      "save_as_component": false,
+      "label": "Upload any files, docs, etc. They will be found under the Files tab on the Thing Page.",
+      "template": "upload"
+    },
+    {
+      "type": "assessment",
+      "name": "Rubric and Assessment"
+    },
+    {
+      "type": "references",
+      "name": "References"
+    }
+  ],
+  "license": "Creative Commons - Attribution",
+  "allows_derivatives": true,
+  "files_url": "https://api.thingiverse.com/things/5828243/files",
+  "images_url": "https://api.thingiverse.com/things/5828243/images",
+  "likes_url": "https://api.thingiverse.com/things/5828243/likes",
+  "ancestors_url": "https://api.thingiverse.com/things/5828243/ancestors",
+  "derivatives_url": "https://api.thingiverse.com/things/5828243/derivatives",
+  "tags_url": "https://api.thingiverse.com/things/5828243/tags",
+  "tags": [
+    {
+      "name": "cosplay",
+      "tag": "cosplay",
+      "url": "https://api.thingiverse.com/tags/cosplay",
+      "count": 6876,
+      "things_url": "https://api.thingiverse.com/tags/cosplay/things",
+      "absolute_url": "https://www.thingiverse.com/tag:cosplay"
+    },
+    {
+      "name": "Legend of Zelda",
+      "tag": "legend_of_zelda",
+      "url": "https://api.thingiverse.com/tags/legend_of_zelda",
+      "count": 1028,
+      "things_url": "https://api.thingiverse.com/tags/legend_of_zelda/things",
+      "absolute_url": "https://www.thingiverse.com/tag:Legend_of_Zelda"
+    },
+    {
+      "name": "Master Sword",
+      "tag": "master_sword",
+      "url": "https://api.thingiverse.com/tags/master_sword",
+      "count": 174,
+      "things_url": "https://api.thingiverse.com/tags/master_sword/things",
+      "absolute_url": "https://www.thingiverse.com/tag:Master_Sword"
+    },
+    {
+      "name": "prop",
+      "tag": "prop",
+      "url": "https://api.thingiverse.com/tags/prop",
+      "count": 4574,
+      "things_url": "https://api.thingiverse.com/tags/prop/things",
+      "absolute_url": "https://www.thingiverse.com/tag:prop"
+    },
+    {
+      "name": "sword",
+      "tag": "sword",
+      "url": "https://api.thingiverse.com/tags/sword",
+      "count": 2817,
+      "things_url": "https://api.thingiverse.com/tags/sword/things",
+      "absolute_url": "https://www.thingiverse.com/tag:sword"
+    },
+    {
+      "name": "Zelda",
+      "tag": "zelda",
+      "url": "https://api.thingiverse.com/tags/zelda",
+      "count": 1398,
+      "things_url": "https://api.thingiverse.com/tags/zelda/things",
+      "absolute_url": "https://www.thingiverse.com/tag:Zelda"
+    }
+  ],
+  "categories_url": "https://api.thingiverse.com/things/5828243/categories",
+  "file_count": 23,
+  "layout_count": 0,
+  "layouts_url": "https://api.thingiverse.com/layouts/5828243",
+  "is_private": 0,
+  "is_purchased": 0,
+  "in_library": false,
+  "print_history_count": 0,
+  "app_id": null,
+  "download_count": 15985,
+  "view_count": 109852,
+  "education": {
+    "grades": [],
+    "subjects": []
+  },
+  "remix_count": 1,
+  "make_count": 17,
+  "app_count": 0,
+  "root_comment_count": 64,
+  "moderation": "",
+  "is_derivative": false,
+  "ancestors": [],
+  "can_comment": true,
+  "type_name": "Thing",
+  "is_banned": false,
+  "needs_moderation": 0
+}
