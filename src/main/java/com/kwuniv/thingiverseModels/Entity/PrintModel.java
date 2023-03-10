@@ -18,7 +18,7 @@ public class PrintModel {
 
     @Id
     @GeneratedValue
-    @Column(name="printmodel_id")
+    @Column
     private Long printModelId;
     private Integer modelId;
 

@@ -15,7 +15,7 @@ import lombok.*;
 public class TestData {
     @Id
     @GeneratedValue
-    @Column(name="testData_id")
+    @Column
     private Long testDataId;
 
     private String name;
