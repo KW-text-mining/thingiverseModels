@@ -1,11 +1,15 @@
 package com.kwuniv.thingiverseModels.Entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.kwuniv.thingiverseModels.Category;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.*;
+import org.springframework.format.annotation.DateTimeFormat;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -27,8 +31,12 @@ public class PrintModel {
 
     private String public_url;
     private String createrName;
-    private LocalDateTime added;
+    @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
+    private LocalDate added;
     private String description;
+
+    public String bigCategory;
+    public String smallCategory;
     private String modelName;
     private Integer likeCount;
     private Integer collectCount;
@@ -36,4 +44,7 @@ public class PrintModel {
     private Integer downloadCount;
     private Integer viewCount;
     private Integer makeCount;
+
+
+
 }

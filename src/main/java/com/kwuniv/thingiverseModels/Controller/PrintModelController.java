@@ -1,6 +1,7 @@
 package com.kwuniv.thingiverseModels.Controller;
 
 
+import com.kwuniv.thingiverseModels.Dto.PrintModelRequestDTO;
 import com.kwuniv.thingiverseModels.Dto.TestDataDTO;
 import com.kwuniv.thingiverseModels.Dto.TestDataRequestDTO;
 import com.kwuniv.thingiverseModels.Entity.PrintModel;
@@ -20,8 +21,8 @@ public class PrintModelController {
     private PrintModelService printModelService;
 
     @PostMapping("/makedata")
-    public PrintModel makeNewData(@RequestBody PrintModel pm) {
-        PrintModel printModel = printModelService.makeData(pm);
+    public PrintModel makeNewData(@RequestBody PrintModelRequestDTO pm) {
+        PrintModel printModel = printModelService.makeData(pm.toEntity());
         //중복 체크, dto 처리 안함
         return printModel;
     }
@@ -33,4 +34,28 @@ public class PrintModelController {
         return printModels;
     }
 
+    @GetMapping("finddatabetween")
+    public List<PrintModel> findDataBetween(@RequestParam String startDate,@RequestParam String endDate) {
+        System.out.println(startDate);
+        System.out.println(endDate);
+        List<PrintModel> printModels = printModelService.findBetween(startDate,endDate);
+
+        return printModels;
+    }
+
+    @GetMapping("finddatabig")
+    public List<PrintModel> findDataBig(@RequestParam String startDate,@RequestParam String endDate,@RequestParam String bigCategory) {
+
+        List<PrintModel> printModels = printModelService.findBigCategory(startDate,endDate,bigCategory);
+
+        return printModels;
+    }
+
+    @GetMapping("finddatasmall")
+    public List<PrintModel> findDataSmall(@RequestParam String startDate,@RequestParam String endDate,@RequestParam String smallCategory) {
+
+        List<PrintModel> printModels = printModelService.findSmallCategory(startDate,endDate,smallCategory);
+
+        return printModels;
+    }
 }
