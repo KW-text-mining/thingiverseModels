@@ -12,4 +12,7 @@ public interface PrintModelRepository extends JpaRepository<PrintModel, Long> {
     List<PrintModel> findByAddedBetweenAndBigCategory(LocalDate startTime, LocalDate endTime,String bigCategory);
     List<PrintModel> findByAddedBetweenAndSmallCategory(LocalDate startTime, LocalDate endTime,String smallCategory);
 
+    Integer countByAddedBetweenAndBigCategory(LocalDate startLocalDate, LocalDate endLocalDate, String bigCategory);
+
+    Integer countByAddedBetweenAndBigCategoryAndSmallCategory(LocalDate startLocalDate, LocalDate endLocalDate, String bigCategory, String name);
 }

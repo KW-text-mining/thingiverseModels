@@ -1,16 +1,14 @@
 package com.kwuniv.thingiverseModels.Entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.kwuniv.thingiverseModels.Category;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import jakarta.annotation.Nullable;
+import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Getter
@@ -18,32 +16,41 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class PrintModel {
 
     @Id
     @GeneratedValue
-    @Column
+    @Column(name = "printmodel_id")
     private Long printModelId;
-    private Integer modelId;
+    private Integer id;
 
-    private String name;
-    private String thumbnail;
+    @Nullable
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="creater_id")
+    private Creater creater;
 
-    private String public_url;
-    private String createrName;
     @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
     private LocalDate added;
-    private String description;
+    private String thumbnail;
 
-    public String bigCategory;
-    public String smallCategory;
-    private String modelName;
     private Integer likeCount;
     private Integer collectCount;
     private Integer commentCount;
+    private String description;
+    private String instruction;
+
+    @Nullable
+    @OneToMany(mappedBy = "printModel")
+    public List<TagPrintModel> tags;
+    public String bigCategory;
+    public String smallCategory;
+
+    private Integer fileCount;
     private Integer downloadCount;
     private Integer viewCount;
     private Integer makeCount;
+    private Integer rootCommentCount;
 
 
 

@@ -7,35 +7,57 @@ import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @RequiredArgsConstructor
 public class PrintModelRequestDTO {
-    private Integer modelId;
+    private Integer id;
 
-    private String name;
-    private String thumbnail;
+    private String creator;
 
-    private String public_url;
-    private String createrName;
     @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
     private LocalDate added;
-    private String description;
+    private String thumbnail;
 
-    public String slug;
-    private String modelName;
     private Integer likeCount;
     private Integer collectCount;
     private Integer commentCount;
+    private String description;
+    private String instruction;
+
+    public List<String> tags;
+    private String slug;
+    private Integer fileCount;
     private Integer downloadCount;
     private Integer viewCount;
     private Integer makeCount;
+    private Integer rootCommentCount;
+
+
+    private String name;
+    private String firstName;
+    private String lastname;
+    private String thubnail;
+    private Integer countOfFollwers;
+    private Integer countOfFollwings;
+    private Integer countOfDesigns;
+
+
+
+
+
+
 
     public PrintModel toEntity() {
         Category category = Category.getInstance();
         String bigCategory = category.getBigCategory(this.slug);
-        return PrintModel.builder().modelId(modelId).name(name)
-                .thumbnail(thumbnail).public_url(public_url).createrName(createrName).added(added).description(description).smallCategory(slug).bigCategory(bigCategory).modelName(modelName).likeCount(likeCount).collectCount(collectCount).commentCount(commentCount).downloadCount(downloadCount).viewCount(viewCount).makeCount(makeCount).build();    }
+        PrintModel newPrintmodel = PrintModel.builder().id(id).added(added).thumbnail(thumbnail).likeCount(likeCount).collectCount(collectCount).description(description).instruction(instruction).bigCategory(bigCategory).smallCategory(slug).fileCount(fileCount)
+                .downloadCount(downloadCount).viewCount(viewCount).makeCount(makeCount).rootCommentCount(rootCommentCount).build();
+        return newPrintmodel;
+    }
+
+
 }
 
 
