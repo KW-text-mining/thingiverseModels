@@ -2,6 +2,7 @@ package com.kwuniv.thingiverseModels.Dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.kwuniv.thingiverseModels.Category;
+import com.kwuniv.thingiverseModels.Entity.Creater;
 import com.kwuniv.thingiverseModels.Entity.PrintModel;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
@@ -52,12 +53,41 @@ public class PrintModelRequestDTO {
 
 
 
-    public PrintModel toEntity() {
+    public PrintModel toPrintEntity() {
         Category category = Category.getInstance();
         String bigCategory = category.getBigCategory(this.slug);
-        PrintModel newPrintmodel = PrintModel.builder().id(id).added(added).thumbnail(thumbnail).likeCount(likeCount).collectCount(collectCount).description(description).instruction(instruction).bigCategory(bigCategory).smallCategory(slug).fileCount(fileCount)
-                .downloadCount(downloadCount).viewCount(viewCount).makeCount(makeCount).rootCommentCount(rootCommentCount).build();
+        PrintModel newPrintmodel = PrintModel.builder()
+                .id(id).added(added)
+                .name(name)
+                .thumbnail(thumbnail)
+                .likeCount(likeCount)
+                .collectCount(collectCount)
+                .commentCount(commentCount)
+                .description(description)
+                .instruction(instruction)
+                .bigCategory(bigCategory)
+                .smallCategory(slug)
+                .fileCount(fileCount)
+                .downloadCount(downloadCount)
+                .viewCount(viewCount)
+                .makeCount(makeCount)
+                .remixCount(remixCount)
+                .rootCommentCount(rootCommentCount)
+                .build();
         return newPrintmodel;
+    }
+
+    public Creater toCreaterEntity() {
+        Creater newCreater = Creater.builder()
+                .name(createrName)
+                .firstName(firstName)
+                .lastname(lastname)
+                .thumbnail(modelThumbnail)
+                .countOfFollwers(countOfFollwers)
+                .countOfFollwings(countOfFollwings)
+                .countOfDesigns(countOfDesigns)
+                .build();
+        return newCreater;
     }
 
 

@@ -37,13 +37,13 @@ public class TagPrintModelService {
                     mappingTag.setTagName(tagname);
 
                 }
-                tagRepository.saveAndFlush(mappingTag);
+                tagRepository.save(mappingTag);
                 TagPrintModel tagPrintModel = new TagPrintModel();
                 //tagPrintModel.setPrintModel(printModel);
                 tagPrintModel.setTag(mappingTag);
                 tagPrintModel.setPrintModel(printModel);
 
-                tagPrintMdodelRepository.saveAndFlush(tagPrintModel);
+                tagPrintMdodelRepository.save(tagPrintModel);
 
         }
         return taglist;

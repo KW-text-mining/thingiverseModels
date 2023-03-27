@@ -33,15 +33,15 @@ public class PrintModelService {
     @Autowired
     private CreaterService createrService;
     public PrintModel makeData(PrintModelRequestDTO pm) {
-        PrintModel printModel = pm.toEntity();
-        printModelRepository.saveAndFlush(printModel);
-        List<TagPrintModel> taglist=  tagPrintModelService.addTag(printModel,pm.getTags());
-        //printModel.setTags(taglist);
+        PrintModel printModel = pm.toPrintEntity();
+
         Creater creater = createrService.getCreater(pm);
         printModel.setCreater(creater);
-
-
         printModelRepository.save(printModel);
+        List<TagPrintModel> taglist=  tagPrintModelService.addTag(printModel,pm.getTags());
+        //printModel.setTags(taglist);
+
+
         return printModel;
     }
 

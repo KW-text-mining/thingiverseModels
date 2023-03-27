@@ -20,15 +20,7 @@ public class CreaterService {
         if (creater.isPresent()) {
             return creater.get();
         }
-        Creater newCreater = new Creater();
-        newCreater.setName(pm.getName());
-
-        newCreater.setLastname(pm.getLastname());
-        newCreater.setFirstName(pm.getFirstName());
-        newCreater.setThumbnail(pm.getThumbnail());
-        newCreater.setCountOfDesigns(pm.getCountOfDesigns());
-        newCreater.setCountOfFollwers(pm.getCountOfFollwers());
-        newCreater.setCountOfFollwings(pm.getCountOfFollwings());
+        Creater newCreater = pm.toCreaterEntity();
         return createrRepository.save(newCreater);
     }
 }

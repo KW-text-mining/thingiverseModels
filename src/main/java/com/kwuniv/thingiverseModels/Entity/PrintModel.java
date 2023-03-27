@@ -39,7 +39,9 @@ public class PrintModel {
     private Integer likeCount;
     private Integer collectCount;
     private Integer commentCount;
+    @Column(length = 5000)
     private String description;
+    @Column(length = 5000)
     private String instruction;
 
 

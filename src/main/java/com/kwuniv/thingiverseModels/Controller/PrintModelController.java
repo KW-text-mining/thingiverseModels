@@ -38,16 +38,22 @@ public class PrintModelController {
         for (PrintModel printModel : printModels) {
             PrintModelResponseDTO pr = new PrintModelResponseDTO();
             pr.setId(printModel.getId());
-            pr.setCreator(printModel.getCreater().getFirstName() + printModel.getCreater().getLastname());
+            pr.setName(printModel.getName());
+            pr.setCreater(printModel.getCreater().getFirstName() + printModel.getCreater().getLastname());
             pr.setAdded(printModel.getAdded());
             pr.setThumbnail(printModel.getThumbnail());
             pr.setLikeCount(printModel.getLikeCount());
             pr.setCollectCount(printModel.getCollectCount());
+
+            pr.setDescription(printModel.getDescription());
+            pr.setInstruction(pr.getInstruction());
+
             pr.setBigCategory(printModel.bigCategory);
             pr.setSmallCategory(printModel.smallCategory);
             pr.setFileCount(printModel.getFileCount());
             pr.setViewCount(printModel.getViewCount());
             pr.setMakeCount(printModel.getMakeCount());
+            pr.setRemixCount(printModel.getRemixCount());
 
             pr.setRootCommentCount(printModel.getRootCommentCount());
 
@@ -74,7 +80,7 @@ public class PrintModelController {
         for (PrintModel printModel : printModels) {
             PrintModelResponseDTO pr = new PrintModelResponseDTO();
             pr.setId(printModel.getId());
-            pr.setCreator(printModel.getCreater().getFirstName() + printModel.getCreater().getLastname());
+            pr.setCreater(printModel.getCreater().getFirstName() + printModel.getCreater().getLastname());
             pr.setAdded(printModel.getAdded());
             pr.setThumbnail(printModel.getThumbnail());
             pr.setLikeCount(printModel.getLikeCount());

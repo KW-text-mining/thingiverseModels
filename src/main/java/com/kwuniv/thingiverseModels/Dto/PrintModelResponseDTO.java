@@ -11,7 +11,9 @@ import java.util.List;
 @RequiredArgsConstructor
 public class PrintModelResponseDTO {
     private Integer id;
-    private String creator;
+
+    private String name;
+    private String creater;
 
     private LocalDate added;
     private String thumbnail;
@@ -27,6 +29,7 @@ public class PrintModelResponseDTO {
     private Integer fileCount;
     private Integer downloadCount;
     private Integer viewCount;
+    private Integer remixCount;
     private Integer makeCount;
     private Integer rootCommentCount;
 
