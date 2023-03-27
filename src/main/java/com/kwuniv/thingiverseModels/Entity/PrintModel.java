@@ -25,6 +25,8 @@ public class PrintModel {
     private Long printModelId;
     private Integer id;
 
+    private String name;
+
     @Nullable
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="creater_id")
@@ -49,6 +51,7 @@ public class PrintModel {
     private Integer fileCount;
     private Integer downloadCount;
     private Integer viewCount;
+    private Integer remixCount;
     private Integer makeCount;
     private Integer rootCommentCount;
 

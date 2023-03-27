@@ -14,7 +14,8 @@ import java.util.List;
 public class PrintModelRequestDTO {
     private Integer id;
 
-    private String creator;
+
+    private String name;
 
     @JsonFormat(pattern = "yyyy-MM-dd",shape = JsonFormat.Shape.STRING)
     private LocalDate added;
@@ -32,17 +33,19 @@ public class PrintModelRequestDTO {
     private Integer downloadCount;
     private Integer viewCount;
     private Integer makeCount;
+
+    private Integer remixCount;
     private Integer rootCommentCount;
 
 
-    private String name;
+    private String createrName;
     private String firstName;
     private String lastname;
-    private String thubnail;
+    private String modelThumbnail;
     private Integer countOfFollwers;
     private Integer countOfFollwings;
     private Integer countOfDesigns;
-
+    private String location;
 
 
 

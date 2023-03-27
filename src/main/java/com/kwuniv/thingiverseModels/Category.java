@@ -99,4 +99,11 @@ public class Category {
         }
         return "None";
     }
+
+    public  void iter() {
+        for (SmallCategory value : SmallCategory.values()) {
+            System.out.println(value.getName());
+
+        }
+    }
 }
