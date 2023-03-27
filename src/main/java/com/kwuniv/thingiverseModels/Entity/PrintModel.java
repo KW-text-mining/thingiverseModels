@@ -27,7 +27,7 @@ public class PrintModel {
 
     private String name;
 
-    @Nullable
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="creater_id")
     private Creater creater;
@@ -42,7 +42,7 @@ public class PrintModel {
     private String description;
     private String instruction;
 
-    @Nullable
+
     @OneToMany(mappedBy = "printModel")
     public List<TagPrintModel> tags;
     public String bigCategory;

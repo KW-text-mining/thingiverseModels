@@ -20,8 +20,7 @@ public class Tag {
     @Column(name = "tag_id")
     private Long tagId;
 
-    @OneToMany(mappedBy = "tag")
-    public List<TagPrintModel> tags;
+
     private String tagName;
     private Integer count;
 

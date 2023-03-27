@@ -23,8 +23,8 @@ public class Creater {
     @Column(name = "creater_id")
     private Long createrId;
 
-    @OneToMany(mappedBy = "creater")
-    private List<PrintModel> printModels = new ArrayList<>();
+//    @OneToMany(mappedBy = "creater")
+//    private List<PrintModel> printModels = new ArrayList<>();
 
     private String name;
     private String firstName;
