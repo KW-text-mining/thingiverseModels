@@ -119,7 +119,7 @@ public class PrintModelController {
         return dtos;
     }
     @GetMapping("periodyear")
-    public List<BigCategoryResponseDTO> findbigbyperiodyear(@RequestParam String year,) {
+    public List<BigCategoryResponseDTO> findbigbyperiodyear(@RequestParam String year) {
 
         List<BigCategoryResponseDTO> dtos = new ArrayList<>();
         for (BigCategory big : BigCategory.values()) {
@@ -135,6 +135,29 @@ public class PrintModelController {
 
         return dtos;
     }
+
+    @GetMapping("periodmonth")
+    public List<BigCategoryResponseDTO> findbigbyperiodmonth(@RequestParam String year,@RequestParam String month) {
+
+        List<BigCategoryResponseDTO> dtos = new ArrayList<>();
+        for (BigCategory big : BigCategory.values()) {
+            BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
+            dto.setCategoryName(big.getName());
+            String startDate = year + "-"+month+"-01";
+            String endDate = year +"-"+month+"-30";
+            Integer count=printModelService.countBigCategory(startDate, endDate, big.getName());
+            dto.setCount(count);
+
+            dtos.add(dto);
+        }
+
+        return dtos;
+    }
+
+
+
+
+
     @GetMapping("big")
     public List<SmallCategoryResponseDTO> findsmallbybig(@RequestParam String startDate,@RequestParam String endDate,@RequestParam String bigCategory) {
 
