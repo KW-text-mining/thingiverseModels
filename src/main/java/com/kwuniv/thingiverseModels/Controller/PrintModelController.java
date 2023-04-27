@@ -154,6 +154,24 @@ public class PrintModelController {
         return dtos;
     }
 
+    @GetMapping("periodday")
+    public List<BigCategoryResponseDTO> findbigbyperiodday(@RequestParam String date) {
+
+        List<BigCategoryResponseDTO> dtos = new ArrayList<>();
+        for (BigCategory big : BigCategory.values()) {
+            BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
+            dto.setCategoryName(big.getName());
+            String startDate = date;
+            String endDate =date;
+            Integer count=printModelService.countBigCategory(startDate, endDate, big.getName());
+            dto.setCount(count);
+
+            dtos.add(dto);
+        }
+
+        return dtos;
+    }
+
 
 
 
