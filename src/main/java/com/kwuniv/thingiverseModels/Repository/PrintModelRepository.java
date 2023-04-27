@@ -15,4 +15,6 @@ public interface PrintModelRepository extends JpaRepository<PrintModel, Long> {
     Integer countByAddedBetweenAndBigCategory(LocalDate startLocalDate, LocalDate endLocalDate, String bigCategory);
 
     Integer countByAddedBetweenAndBigCategoryAndSmallCategory(LocalDate startLocalDate, LocalDate endLocalDate, String bigCategory, String name);
+
+    Integer countBigCategory(String bigCategory);
 }

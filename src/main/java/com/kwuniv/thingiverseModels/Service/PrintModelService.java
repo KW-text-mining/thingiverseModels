@@ -78,4 +78,8 @@ public class PrintModelService {
         LocalDate endLocalDate = LocalDate.parse(endDate);
         return printModelRepository.countByAddedBetweenAndBigCategoryAndSmallCategory(startLocalDate, endLocalDate,bigCategory,name);
     }
+
+    public Integer countAllBigCategory( String bigCategory) {
+        return printModelRepository.countBigCategory(bigCategory);
+    }
 }

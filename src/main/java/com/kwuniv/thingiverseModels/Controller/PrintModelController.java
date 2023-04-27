@@ -103,6 +103,22 @@ public class PrintModelController {
         return printModelResponseDTOS;
     }
 
+    @GetMapping("countall")
+    public List<BigCategoryResponseDTO> countall() {
+
+        List<BigCategoryResponseDTO> dtos = new ArrayList<>();
+        for (BigCategory big : BigCategory.values()) {
+            BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
+            dto.setCategoryName(big.getName());
+            Integer count=printModelService.countAllBigCategory( big.getName());
+            dto.setCount(count);
+
+            dtos.add(dto);
+        }
+
+        return dtos;
+    }
+
     @GetMapping("period")
     public List<BigCategoryResponseDTO> findbigbyperiod(@RequestParam String startDate,@RequestParam String endDate) {
 
