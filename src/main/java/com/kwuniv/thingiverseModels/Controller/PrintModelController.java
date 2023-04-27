@@ -39,7 +39,7 @@ public class PrintModelController {
             PrintModelResponseDTO pr = new PrintModelResponseDTO();
             pr.setId(printModel.getId());
             pr.setName(printModel.getName());
-            pr.setCreater(printModel.getCreater().getFirstName() + printModel.getCreater().getLastname());
+           // pr.setCreater(printModel.getCreater().getFirstName() + printModel.getCreater().getLastname());
             pr.setAdded(printModel.getAdded());
             pr.setThumbnail(printModel.getThumbnail());
             pr.setLikeCount(printModel.getLikeCount());
@@ -118,7 +118,23 @@ public class PrintModelController {
 
         return dtos;
     }
+    @GetMapping("periodyear")
+    public List<BigCategoryResponseDTO> findbigbyperiodyear(@RequestParam String year,) {
 
+        List<BigCategoryResponseDTO> dtos = new ArrayList<>();
+        for (BigCategory big : BigCategory.values()) {
+            BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
+            dto.setCategoryName(big.getName());
+            String startDate = year + "-01-01";
+            String endDate = year + "-12-31";
+            Integer count=printModelService.countBigCategory(startDate, endDate, big.getName());
+            dto.setCount(count);
+
+            dtos.add(dto);
+        }
+
+        return dtos;
+    }
     @GetMapping("big")
     public List<SmallCategoryResponseDTO> findsmallbybig(@RequestParam String startDate,@RequestParam String endDate,@RequestParam String bigCategory) {
 
