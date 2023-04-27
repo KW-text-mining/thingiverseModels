@@ -80,6 +80,6 @@ public class PrintModelService {
     }
 
     public Integer countAllBigCategory( String bigCategory) {
-        return printModelRepository.countBigCategory(bigCategory);
+        return printModelRepository.countByBigCategory(bigCategory);
     }
 }
