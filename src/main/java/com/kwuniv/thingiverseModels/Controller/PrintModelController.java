@@ -317,7 +317,7 @@ public class PrintModelController {
             ids.add(printModelResponseDTO.getId());
         }
         List<String> csvList = new ArrayList<String>();
-        File csv = new File("/Users/choihyuksoon/Desktop/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/thingiverseData_preprocessing.csv");
+        File csv = new File("/home/ubuntu/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/thingiverseData_preprocessing.csv");
         BufferedReader br = null;
         String line = "";
 
@@ -357,7 +357,7 @@ public class PrintModelController {
 
 
 
-        String filePath = "/Users/choihyuksoon/Desktop/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/input.csv";
+        String filePath = "/home/ubuntu/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/input.csv";
 
         File file = null;
         BufferedWriter bw = null;
@@ -381,7 +381,7 @@ public class PrintModelController {
             e.printStackTrace();
         }
 
-        ProcessBuilder pb = new ProcessBuilder("python", "/Users/choihyuksoon/Desktop/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/LDA.py",category);
+        ProcessBuilder pb = new ProcessBuilder("python", "/home/ubuntu/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/LDA.py",category);
         try {
             Process p = pb.start();
             BufferedReader bfr = new BufferedReader(new InputStreamReader(p.getInputStream()));
