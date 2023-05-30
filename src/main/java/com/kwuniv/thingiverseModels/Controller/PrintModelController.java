@@ -381,7 +381,7 @@ public class PrintModelController {
             e.printStackTrace();
         }
 
-        ProcessBuilder pb = new ProcessBuilder("python", "/home/ubuntu/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/LDA.py",category);
+        ProcessBuilder pb = new ProcessBuilder("python3", "/home/ubuntu/thingiverseModels/src/main/java/com/kwuniv/thingiverseModels/LDA.py",category);
         try {
             Process p = pb.start();
             BufferedReader bfr = new BufferedReader(new InputStreamReader(p.getInputStream()));
@@ -390,6 +390,7 @@ public class PrintModelController {
 
             int idx = 0;
             while ((newline = bfr.readLine()) != null){
+		    System.out.println(newline);
                 if (idx == 0) {
                     responseDataDTO.setCount(Integer.parseInt(newline));
                     idx += 1;

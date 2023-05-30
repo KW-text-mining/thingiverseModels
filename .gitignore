@@ -40,4 +40,5 @@ out/
 *.csv
 .txt
 *.txt
-
+.py
+*.py
