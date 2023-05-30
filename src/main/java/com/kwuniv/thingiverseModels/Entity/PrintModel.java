@@ -3,8 +3,9 @@ package com.kwuniv.thingiverseModels.Entity;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import jakarta.annotation.Nullable;
-import jakarta.persistence.*;
+
+import javax.persistence.*;
+
 import lombok.*;
 
 import java.time.LocalDate;
