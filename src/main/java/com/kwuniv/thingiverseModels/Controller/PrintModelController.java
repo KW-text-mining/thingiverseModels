@@ -5,16 +5,13 @@ import com.kwuniv.thingiverseModels.BigCategory;
 import com.kwuniv.thingiverseModels.Dto.*;
 import com.kwuniv.thingiverseModels.Entity.PrintModel;
 import com.kwuniv.thingiverseModels.Entity.TagPrintModel;
-import com.kwuniv.thingiverseModels.Entity.TestData;
 import com.kwuniv.thingiverseModels.Service.PrintModelService;
-import com.kwuniv.thingiverseModels.Service.TestDataService;
 import com.kwuniv.thingiverseModels.SmallCategory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -113,9 +110,9 @@ public class PrintModelController {
         List<BigCategoryResponseDTO> dtos = new ArrayList<>();
         for (BigCategory big : BigCategory.values()) {
             BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
-            dto.setCategoryName(big.getName());
+            dto.setName(big.getName());
             Integer count=printModelService.countAllBigCategory( big.getName());
-            dto.setCount(count);
+            dto.setData(count);
 
             dtos.add(dto);
         }
@@ -124,14 +121,14 @@ public class PrintModelController {
     }
 
     @GetMapping("period")
-    public List<BigCategoryResponseDTO> findbigbyperiod(@RequestParam String startDate,@RequestParam String endDate) {
+    public List<PeriodDTO> findbigbyperiod(@RequestParam String startDate,@RequestParam String endDate) {
 
-        List<BigCategoryResponseDTO> dtos = new ArrayList<>();
+        List<PeriodDTO> dtos = new ArrayList<>();
         for (BigCategory big : BigCategory.values()) {
-            BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
-            dto.setCategoryName(big.getName());
+            PeriodDTO dto = new PeriodDTO();
+            dto.setLabel(big.getName());
             Integer count=printModelService.countBigCategory(startDate, endDate, big.getName());
-            dto.setCount(count);
+            dto.setValue(count);
 
             dtos.add(dto);
         }
@@ -209,11 +206,11 @@ public class PrintModelController {
         List<BigCategoryResponseDTO> dtos = new ArrayList<>();
         for (BigCategory big : BigCategory.values()) {
             BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
-            dto.setCategoryName(big.getName());
+            dto.setName(big.getName());
             String startDate = year + "-"+month+"-01";
             String endDate = year +"-"+month+"-30";
             Integer count=printModelService.countBigCategory(startDate, endDate, big.getName());
-            dto.setCount(count);
+            dto.setData(count);
 
             dtos.add(dto);
         }
@@ -227,11 +224,11 @@ public class PrintModelController {
         List<BigCategoryResponseDTO> dtos = new ArrayList<>();
         for (BigCategory big : BigCategory.values()) {
             BigCategoryResponseDTO dto = new BigCategoryResponseDTO();
-            dto.setCategoryName(big.getName());
+            dto.setName(big.getName());
             String startDate = date;
             String endDate =date;
             Integer count=printModelService.countBigCategory(startDate, endDate, big.getName());
-            dto.setCount(count);
+            dto.setData(count);
 
             dtos.add(dto);
         }
