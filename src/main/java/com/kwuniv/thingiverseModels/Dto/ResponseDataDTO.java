@@ -13,5 +13,5 @@ public class ResponseDataDTO {
     private Integer count;
     private List<DTO> dtos=new ArrayList<>();
 
-    private List<String> topics = new ArrayList<>();
+    private List<TopicDTO> topics = new ArrayList<>();
 }
