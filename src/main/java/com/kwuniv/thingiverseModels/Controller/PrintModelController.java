@@ -165,7 +165,7 @@ public class PrintModelController {
             YearDTO dto = new YearDTO();
             for (String month : months) {
                 String startDate = year + "-"+month+"-01";
-                String endDate = year + "-"+month+"-31";
+                String endDate = year + "-"+month+"-29";
                 Integer count=printModelService.countBigCategory(startDate, endDate, big.getName());
                 dto.getData().add(count);
             }
