@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:8080","https://kw-text-mining.github.io/3D-Printing-FrontEnd/","https://github.com/KW-text-mining/3D-Printing-FrontEnd/","https://kw-text-mining.github.io"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:8080","https://kw-text-mining.github.io/3D-Printing-FrontEnd/","https://github.com/KW-text-mining/3D-Printing-FrontEnd/","https://kw-text-mining.github.io",,"http://kw-text-mining.github.io/3D-Printing-FrontEnd/","http://github.com/KW-text-mining/3D-Printing-FrontEnd/","http://kw-text-mining.github.io"})
 
 @RestController
 @RequestMapping("data")
